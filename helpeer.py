@@ -1,3 +1,4 @@
+import os
 # Module example 
 
 def calcCircumference(radius: float) -> float:
@@ -16,4 +17,5 @@ def calAreaOfCircle(radius=None, diameter=None):
     elif diameter is not None:
         return pi * (diameter/2) ** 2
     
-    
+ 
+os.getcwd()
